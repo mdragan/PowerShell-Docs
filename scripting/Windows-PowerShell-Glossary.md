@@ -15,6 +15,7 @@ ms.assetid:  b0f88cbe-cb83-4912-a301-184534cb35c7
 
 |Term|Definition|
 |--------|--------------|
+|cmdlet|Any PowerShell command. New cmdlets can be created and added to PowerShell by any user; PowerShell comes with an initial set of cmdlets named Core cmdlets|
 |binary module|A Windows PowerShell module whose root module is a binary module file (.dll). A binary module may or may not include a module manifest.|
 |common parameter|A parameter that is added to all cmdlets and advanced functions by the Windows PowerShell engine.|
 |dot source|In Windows PowerShell, to start a command by typing a dot and a space before the command. Commands that are dot sourced run in the current scope instead of in a new scope. Any variables, aliases, functions, or drives that command creates are created in the current scope and are available to users when the command is completed.|
@@ -31,7 +32,7 @@ ms.assetid:  b0f88cbe-cb83-4912-a301-184534cb35c7
 |non\-terminating error|An error that does not stop Windows PowerShell from continuing to process the command.|
 |noun|The word that follows the hyphen in a Windows PowerShell cmdlet name. The noun describes the resources upon which the cmdlet acts.|
 |parameter set|A group of parameters that can be used in the same command to perform a specific action.|
-|pipe|In Windows PowerShell, to send the results of the preceding command as input to the next command in the pipeline.|
+|pipe|In PowerShell, to send the results of the preceding command as input to the next command in the pipeline.|
 |pipeline|A series of commands connected by pipeline operators (&#124;) (ASCII 124). Each pipeline operator sends the results of the preceding command as input to the next command.|
 |PSSession|A type of Windows PowerShell session that is created, managed, and closed by the user.|
 |root module|The module specified in the ModuleToProcess key in a module manifest.|
@@ -56,4 +57,3 @@ ms.assetid:  b0f88cbe-cb83-4912-a301-184534cb35c7
 |Windows PowerShell script file|A file that has the .ps1 extension and that contains a script that is written in the Windows PowerShell language.|
 |Windows PowerShell snap\-in|A resource that defines a set of cmdlets, providers, and Microsoft .NET Framework types that can be added to the Windows PowerShell environment.|
 |Windows PowerShell Workflow|A workflow is a sequence of programmed, connected steps that perform long\-running tasks or require the coordination of multiple steps across multiple devices or managed nodes. Windows PowerShell Workflow lets IT pros and developers author sequences of multi\-device management activities, or single tasks within a workflow, as workflows. Windows PowerShell Workflow lets you adapt and run both Windows PowerShell scripts and XAML files as workflows.|
-
