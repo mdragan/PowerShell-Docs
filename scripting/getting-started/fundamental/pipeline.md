@@ -11,6 +11,8 @@ ms.prod:  powershell
 
 # Pipeline
 
+Test text to play with PS Git stoof.
+
 In PowerShell, as in most other shells (i.e. [bash](https://www.gnu.org/software/bash/)), the results of the execution of a command can be passed as input to the next command. This allows to create lines of work, like an assembly line, where the output result is improved at each station.
 
 For two commands to benefit from the pipeline, they need to be connected when issued; the connection between commands is made through the vertical bar '&#x007c;' character. Here is an example of two piped commands: `Get-ChildItem | Sort`. Pipelines can be as long as desired; there's no limit on home many commands can be connected. However, when connecting many commands to the pipeline, it is important to understand that the output of one command goes to the next one; there is no way to pick up the results from the command executed two pipes before (those results were available only to the command right after the one that issued the results).
