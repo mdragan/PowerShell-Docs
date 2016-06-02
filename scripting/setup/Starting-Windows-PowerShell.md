@@ -20,7 +20,7 @@ However, you might occasionally need to run **Windows PowerShell (x86)**, such a
 
 To start a 32\-bit version of Windows PowerShell, use any of the following procedures.
 
-### In Windows Server® 2012 and Windows Server® R2
+### In Windows Server® 2012 and Windows Server® 2012 R2
 
 1.   On the **Start** screen, type **Windows PowerShell (x86)**. Click the **Windows PowerShell x86** tile.
 
